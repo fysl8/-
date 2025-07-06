@@ -28,6 +28,7 @@
       border-radius: 20px;
       overflow: hidden;
       box-shadow: 0 15px 40px rgba(0,0,0,0.9);
+      flex-direction: row;
     }
     .left {
       flex: 1;
@@ -106,6 +107,7 @@
       display: flex;
       gap: 30px;
       justify-content: center;
+      flex-wrap: wrap;
     }
     .socials a {
       display: inline-flex;
@@ -127,6 +129,12 @@
       width: 28px;
       height: 28px;
       object-fit: contain;
+    }
+    .support-text {
+      margin-top: 20px;
+      text-align: center;
+      color: #aaa;
+      font-size: 1rem;
     }
     @media (max-width: 900px) {
       .container {
@@ -152,9 +160,8 @@
       <img src="https://2img.net/h/25.media.tumblr.com/8c5221eeb677051c17908be0d42be04b/tumblr_mtvxagaDG21r6q7tio1_r1_500.gif" alt="شعار أو صورة شخصية" class="profile-img" />
       <h1>AL-F </h1>
       <p>Ｗａｓ 𝐛𝐨𝐫𝐧 𝐚𝐥𝐨𝐧𝐞. 𝐔𝐧𝐝𝐞𝐫𝐬𝐭𝐨𝐨𝐝 𝐭𝐡𝐞 𝐰𝐨𝐫𝐥𝐝 𝐢𝐧 𝐬𝐢𝐥𝐞𝐧𝐜𝐞. 𝐈 𝐧𝐞𝐞𝐝 𝐧𝐨 𝐨𝐧𝐞, 𝐣𝐮𝐬𝐭 𝐚 𝐞𝐧𝐠𝐢𝐧𝐞, 𝐚 𝐥𝐢𝐧𝐞 𝐨𝐟 𝐜𝐨𝐝𝐞, 𝐨𝐫 𝐚 𝐡𝐞𝐚𝐫𝐭 𝐭𝐡𝐚𝐭 𝐝𝐨𝐞𝐬 𝐧𝐨𝐭 𝐛𝐫𝐞𝐚𝐤..</p>
-      <div class="buttons">
-        <!-- يمكن إضافة أزرار هنا -->
-      </div>
+
+      <!-- الروابط الاجتماعية -->
       <nav class="socials" aria-label="روابط التواصل الاجتماعي">
         <a href="https://www.youtube.com/channel/UCNDsCy9vLTCVZHWVgSpJ3FQ" target="_blank" aria-label="يوتيوب" rel="noopener noreferrer" title="يوتيوب">
           <img src="https://cdn.pixabay.com/animation/2022/10/05/02/30/02-30-43-327_512.gif" alt="شعار يوتيوب" />
@@ -168,7 +175,13 @@
         <a href="https://www.tiktok.com/@hj99" target="_blank" aria-label="تيك توك" rel="noopener noreferrer" title="تيك توك">
           <img src="https://media.tenor.com/NLKvStycmJ8AAAAM/tiktok-logo-logo.gif" alt="شعار تيك توك" />
         </a>
+        <a href="https://www.paypal.com/paypalme/fal570" target="_blank" aria-label="باي بال" rel="noopener noreferrer" title="ادعمني على PayPal">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgH-LxZ7NVxfc6_p56-62YW79bN24a4ETVXA&s" alt="شعار باي بال" />
+        </a>
       </nav>
+
+      <!-- نص أسفل الأزرار -->
+      <p class="support-text">❤️PayPal❤️</p>
     </div>
     <div class="right"></div>
   </div>
